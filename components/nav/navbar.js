@@ -28,7 +28,7 @@ export default function navbar() {
 
       <div className="flex backdrop-blur-md h-[4rem] shadow-xl p-5 justify-between items-center">
         {/* Main logo */}
-        <h1
+        {/* <h1
           className={`logo capitalize font-bold text-[#23af84] text-3xl flex justify-between`}
         >
           <Link
@@ -46,8 +46,9 @@ export default function navbar() {
               Palli Mongal Karmosuchi (PMK)
             </p>
           </Link>
-        </h1>
+        </h1> */}
         {/* hamburger menu for mobile devices */}
+        <div>logo</div>
         <div className="relative md:hidden xl:hidden">
           <BurgerMenu setShow={setShow} show={show} />
           {<NavSm setShow={setShow} show={show} pathName />}
